@@ -23,7 +23,7 @@ TARDIR=wget-1.13.4-2581
 
 rm -rf $TARFILE $TARDIR/
 
-wget --no-check-certificate https://github.com/downloads/ArchiveTeam/mobileme-grab/$TARFILE
+curl -L -O https://github.com/downloads/ArchiveTeam/mobileme-grab/$TARFILE
 tar xjf $TARFILE
 cd $TARDIR/
 if ./configure $CONFIGURE_SSL_OPT --disable-nls && make
