@@ -1,4 +1,4 @@
-scrape: make init
-scrape2: make init
-scrape3: make init
-scrape4: make init
+scrape: ./seesaw.sh kenneth
+scrape2: ./seesaw.sh kenneth
+scrape3: ./seesaw.sh kenneth
+scrape4: ./seesaw.sh kenneth
